@@ -1,6 +1,4 @@
 <?php
-use Omoon\PhpConFukuoka16\model\Author;
-use Omoon\PhpConFukuoka16\model\Book;
 use Omoon\PhpConFukuoka16\Util\Connection;
 
 $loader = require_once __DIR__ . '/../vendor/autoload.php';
@@ -28,6 +26,4 @@ include __DIR__ . '/parts/aggregate_function.php';
 include __DIR__ . '/parts/insert.php';
 include __DIR__ . '/parts/filtering.php';
 ?>
-
-
 </pre>
