@@ -1,0 +1,10 @@
+{
+    "config": {
+        "secure-http": false
+    },
+    "require": {
+        "doctrine/dbal": "2.5.4",
+        "illuminate/database": "5.2.32",
+        "devster/ubench": "@stable"
+    }
+}
